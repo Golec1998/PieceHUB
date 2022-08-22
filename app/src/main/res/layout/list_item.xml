@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:id="@+id/listItem">
+
+    <ImageView
+        android:id="@+id/type"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_game" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Tytuł"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toEndOf="@+id/type"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Autor lub wydawca"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <ImageView
+        android:id="@+id/progressImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@+id/author"
+        app:layout_constraintTop_toBottomOf="@+id/author"
+        app:srcCompat="@drawable/ic_done" />
+
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Ukończono"
+        app:layout_constraintBottom_toBottomOf="@+id/progressImage"
+        app:layout_constraintStart_toEndOf="@+id/progressImage"
+        app:layout_constraintTop_toTopOf="@+id/progressImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

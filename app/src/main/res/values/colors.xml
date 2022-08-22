@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_darkmode">#FFE92525</color>
+    <color name="primary_lightmode">#FF8C1F28</color>
+    <color name="primary_variant">#FF591C21</color>
+    <color name="secondary">#FF347070</color>
+    <color name="secondary_variant">#FF246060</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

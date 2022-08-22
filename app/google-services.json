@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "725973318217",
+    "project_id": "piecehub-20798",
+    "storage_bucket": "piecehub-20798.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725973318217:android:6d813da9d7e27382b39d98",
+        "android_client_info": {
+          "package_name": "com.example.piecehub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725973318217-bj847duh46eluhsh8env41ce7p66nkl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0KyRn81nB0MRFQWBG2XlzG59DWaJW9AM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725973318217-bj847duh46eluhsh8env41ce7p66nkl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
